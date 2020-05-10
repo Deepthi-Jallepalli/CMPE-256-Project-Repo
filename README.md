@@ -35,18 +35,12 @@ To run the files, the first 2 cells are to be deleted if in a PC or works good i
 
 ### Community Detection using Girvan-Newman and Lovain Algorithms
 
-#### The folder 'Community Detection_Girvan-Newman_Louvain' contains following files:
-
-    1. Facebook : This folder contains all data files (.circles, .edges, .feat, .featnames, .egofeat )extracted from facebook.tar.gz 
-
-    2. Community_Detection_Grivan_Louvain.ipynb : This file contains the data extracts from Facebook files and constructs graphs for each ego-node and implements of community detection using Girvan-Newman and Louvain Algorihms and then evaluates the communities and plots the statistics.
-
-    3. read_egoNetwork.py : A Utility file that has functions designed to read circles, edges from files, construct and return graphs, read communities detected by algorithms. This file is imported to Community_Detection_Grivan_Louvain.ipynb
-
-    4. commdect_algos_eval.py : A utility file that has Girvan-Newman algorithm that returns communities, cost and loss functions for evaluating the communties detected and returns the score. This file is imported to Community_Detection_Grivan_Louvain.ipynb
-    
-    5. plotGraphs.py : A Utility file that has functions designed to plot all types of graphs which include ego network plots, community detection plots, evaluation plots. This file is imported to Community_Detection_Grivan_Louvain.ipynb
-    
-    6. Images : This folder contains all images related to ego-networks, community plots and evalautions results.
+The folder 'Community Detection_Girvan-Newman_Louvain' contains following files:
+1. Facebook : This folder contains all data files (.circles, .edges, .feat, .featnames, .egofeat )extracted from facebook.tar.gz 
+2. Community_Detection_Grivan_Louvain.ipynb : This file contains the data extracts from Facebook files and constructs graphs for each ego-node and implements of community detection using Girvan-Newman and Louvain Algorihms and then evaluates the communities and plots the statistics.
+3. read_egoNetwork.py : A Utility file that has functions designed to read circles, edges from files, construct and return graphs, read communities detected by algorithms. This file is imported to Community_Detection_Grivan_Louvain.ipynb
+4. commdect_algos_eval.py : A utility file that has Girvan-Newman algorithm that returns communities, cost and loss functions for evaluating the communties detected and returns the score. This file is imported to Community_Detection_Grivan_Louvain.ipynb
+5. plotGraphs.py : A Utility file that has functions designed to plot all types of graphs which include ego network plots, community detection plots, evaluation plots. This file is imported to Community_Detection_Grivan_Louvain.ipynb
+6. Images : This folder contains all images related to ego-networks, community plots and evalautions results.
     
     
