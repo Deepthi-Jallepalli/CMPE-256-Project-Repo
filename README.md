@@ -11,6 +11,6 @@ Number of edges: 331
     4. PageRank
 
 #### Required Packages: 
-python version 3.6.10
-NetworkX
-Matplotlib (visualizations)
+    1. python version 3.6.10
+    2. NetworkX
+    3. Matplotlib (visualizations)
