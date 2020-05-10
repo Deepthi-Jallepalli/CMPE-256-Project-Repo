@@ -23,9 +23,17 @@ The ‘Link Prediction’ folder has two .ipynb files- EgoNode-686 LinkPredictio
     7. sklearn
     8. tqdm
     9.re
-    
 
-#In the folder, Community_Prediction_LPA, there are 2 files as lpa_com_pred_total.ipynb which has the generation of graphs for #both synchronous Label propagation and Asynchronous Label Propagation for all the ego networks present in the data set and #Comm_pred_eval_metrics_py.ipynb has the community detection graphs, evaluation metrics for the 698 egonode along with the #represntation of communities from the same ego network. 
-#To run the files, the first 2 cells are to be deleted if in a PC or works good in colab. Also, the path to the data should be #set accordingly.
+## Community Prediction using Label Propagation
+
 In the folder, Community_Prediction_LPA, there are 2 files as lpa_com_pred_total.ipynb which has the generation of graphs for both synchronous Label propagation and Asynchronous Label Propagation for all the ego networks present in the data set and Comm_pred_eval_metrics_py.ipynb has the community detection graphs, evaluation metrics for the 698 egonode along with the represntation of communities from the same ego network. 
 To run the files, the first 2 cells are to be deleted if in a PC or works good in colab. Also, the path to the data should be set accordingly.
+
+#### Required Packages
+1. Python 3
+2. NetworkX
+3. Matplotlib
+4. Collections
+5. itertools
+6. Numpy
+7. Time
